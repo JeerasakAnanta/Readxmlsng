@@ -1,7 +1,8 @@
 # Read  XML sng  
 ## requirements  
+`
 fastapi==0.115.0
-
+`
 ## clone project 
 ```
 https://github.com/JeerasakAnanta/Readxmlsng.git
@@ -23,7 +24,17 @@ pip install -r requirements.txt
 pip install "fastapi[standard]"
 ```
 
-## run fast api
+## Run fast api
 ```
 fastapi run  api.py --reload 
 ```
+
+## Testing  
+```
+http://0.0.0.0:8000/docs
+```
+`
+/read_xml_sgn
+`
+## Verstion 
+`0.1.0`: project init  
