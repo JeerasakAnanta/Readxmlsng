@@ -18,7 +18,8 @@ source env_fastapi/bin/activate
 ```
 ##  pip3 install  requirements.txt
 ```
-pip3 install -r requirements.txt  
+pip install -r requirements.txt  
+pip install "fastapi[standard]"
 ```
 
 ## run fast api
