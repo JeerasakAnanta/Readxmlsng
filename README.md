@@ -4,12 +4,13 @@ fastapi==0.115.0
 
 ## clone project 
 ```
+https://github.com/JeerasakAnanta/Readxmlsng.git
 
 ```
 ## create virtual environment 
 create 
 ```
-python3 -m  env
+python3 -m  venv env
 ``` 
 activate
 ```                                        
