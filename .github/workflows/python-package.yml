@@ -17,6 +17,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: python -c "print('Hello, World!')"
+    - name: Create and activate virtual environment
+      run: |
+        python3 -m venv venv
+        source venv/bin/activate
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    - name: Test with pytest
+      run: |
+        pytest
 
